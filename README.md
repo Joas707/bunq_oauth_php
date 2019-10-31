@@ -4,7 +4,7 @@ This is an example of how to get a bunq configuration file with Oauth.
 ## Get Started
 #### Requirements:
 - Own webserver with https
-- A bunq premium account or a sandbox version
+- A bunq premium account or a sandbox* version
 
 #### Setup
 1. Upload everything to the webserver and run composer to get the bunq sdk.
@@ -14,3 +14,5 @@ This is an example of how to get a bunq configuration file with Oauth.
 5. Complete the steps, the config file will be saved at the place where you defined it in config.php. Please be sure that it is stored at a secure location and it isn't possible for everyone to access!
 
 If you have any questions or trouble installing this feel free to send me a message!
+
+*If you use the sandbox enviroment, please change PRODUCTION to SANDBOX in generate_conf_file.php
