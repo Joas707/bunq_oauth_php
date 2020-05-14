@@ -1,5 +1,5 @@
 {
     "require": {
-        "bunq/sdk_php": "^1.12.1"
+        "bunq/sdk_php": "^1.13"
     }
 }
